@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@types/docker-modem": "npm:@types/docker-modem@^3.0.6",
+    "@types/dockerode": "npm:@types/dockerode@^3.3.31",
+    "docker-modem": "npm:docker-modem@^5.0.3",
+    "dockerode": "npm:dockerode@^4.0.2"
+  }
+}
